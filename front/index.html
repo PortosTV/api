@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">Quizz</a>
+
+            <nav class="navbar">
+                <a href="#" class="active">Home</a>
+                <a href="https://fr.wikihow.com/tricher-à-un-examen">Comment tricher</a>
+                <a href="https://fr.wikihow.com/gérer-une-situation-où-l’on-est-surpris-en-train-de-tricher-lors-d’un-test#:~:text=Montrez%20du%20remords.,vous%20regrettez%20d%27avoir%20triché.">On m'a vue triché que faire ?</a>
+                <a href="https://fr.wikihow.com/pleurer-sur-commande#:~:text=Frottez%20vos%20yeux.&text=Ensuite%2C%20ouvrez%20vos%20yeux%20et,vous%20rougirez%20la%20zone%20contigüe.">Pleurer ?</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Essaye de tricher</h1>
+                    <div class="quiz-header">
+                        <span>Quiz Website</span>
+                        <span class="header-score">Score : 0 / 5</span>
+                    </div>
+
+                    <h2 class="question-text">Que veux dire HTML ?</h2>
+                    <div class="option-list">
+                        <!--<div class="option">
+                            <span>1. Hyper Type Multi Language</span>
+                        </div>
+                        <div class="option">
+                            <span>2. Hyper Text Multple Language</span>
+                        </div>
+                        <div class="option">
+                            <span>3. Hyper Text Markup Language</span>
+                        </div>
+                        <div class="option">
+                            <span>4. Home Text Multi Language</span>
+                        </div>-->
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total">1 questions sur 5</span>
+                        <button class="next-btn">Suivant</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Résultat</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+
+                        <span class="score-text">Ton score 0 sur 5</span>
+                    </div>
+
+                    <div class="buttons">
+                        <a href="index.html" ><button>Accueil</button></a>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                            <button>2ème chance</button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="home">
+                <div class="home-content">
+                    <h1>Tricheur ?</h1>
+                    <p>Bienvenue sur ce superbe quizz qui va pouvoir te mettre à l'épreuve, on te laisse le droit de tricher mais si tu te fais attrapé c'est fini pour toi... et bonjour le 0</p>
+                    <button class="start-btn">Start Quizz</button>
+                </div>
+        </section>
+        </div>
+    </main>
+
+    <div class="popup-info">
+        <h2>Quizz Guide</h2>
+        <span class="info">1. Lorem, ipsum dolor sit amet consectetur adipisicing.</span>
+        <span class="info">2. Lorem, ipsum dolor sit amet consectetur adipisicing.</span>
+        <span class="info">3. Lorem, ipsum dolor sit amet consectetur adipisicing.</span>
+        <span class="info">4. Lorem, ipsum dolor sit amet consectetur adipisicing.</span>
+        <span class="info">5. Lorem, ipsum dolor sit amet consectetur adipisicing.</span>
+    
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Exit Quizz</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
+        </div>
+    </div>
+
+    <script src="./js/questions.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/fetch.js"></script>
+</body>
+</html>
